@@ -1,0 +1,38 @@
+.getlandkit
+    display: flex
+    flex-direction: row
+    justify-content: center
+    width: 100%
+    background-color: $purple
+    .getlandkit_container
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 1000px
+        text-align: center
+        p:first-of-type
+            text-transform: uppercase
+            font-family: 'HK Grotesk Medium Legacy'
+            background-color: rgb(32,48,85)
+            letter-spacing: 1px
+            color: $font-gray
+            font-size: 14px
+            padding: 5px 10px
+            border-radius: 12px
+            margin-bottom: 16px
+        h1
+            color: white
+            font-family: 'HK Grotesk Medium Legacy'
+            font-weight: normal
+            font-size: 48px
+            margin-bottom: 16px
+        p:nth-of-type(2),p:nth-of-type(3)
+            color: $font-lightgray
+            font-family: 'HK Grotesk Light'
+            font-size: 18px
+            margin-bottom: 9px
+        button
+            margin-top: 48px
+            +mybutton($lightgreen, 16px 25px)
+            &:hover
+                +buttonlift($darkgreen)

@@ -1,0 +1,123 @@
+.landing
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    flex-wrap: wrap
+    margin-top: 165px
+    .motto
+        position: relative
+        bottom: 0px
+        opacity: 1
+        width: 50%
+        transition: .5s 
+        &.invisible
+            position: relative
+            bottom: -60px
+            opacity: 0
+        h1
+            font-family: 'HK Grotesk Light'
+            color: $font-darkgray
+            width: 100%
+            font-size: 48px
+            font-weight: bold
+            letter-spacing: .5px
+            span
+                color: $light-blue
+        p:first-of-type
+            margin-top: 15px
+            margin-bottom: 5px
+        p
+            font-family: 'HK Grotesk Light'
+            font-weight: normal
+            color: $font-lightgray
+            font-size: 22px
+        p:last-of-type
+            margin-bottom: 45px
+        button:first-of-type
+            +mybutton($light-blue, 16px 25px)
+            &:hover
+                +buttonlift($dark-blue)
+        button:last-of-type
+            +mybutton($button-lightgray, 16px 25px)
+            color: $light-blue
+            &:hover
+                +buttonlift($button-darkgray)
+    .landing_img
+        position: relative
+        bottom: 0px
+        opacity: 1
+        width: 50%
+        transition: .7s .2s 
+        &.invisible
+            position: relative
+            bottom: -60px
+            opacity: 0
+        img
+            position: relative
+            bottom: 60px
+    .fav1
+        position: relative
+        bottom: 0px
+        opacity: 1
+        width: 32%
+        margin-top: 10px
+        transition: .5s 
+        &.invisible
+            position: relative
+            bottom: -60px
+            opacity: 0
+        p:first-of-type
+            color: $font-darkgray
+            font-size: 22px
+            margin: 15px 0px
+        p:last-of-type
+            color: $font-lightgray
+            font-size: 17px
+            line-height: 170%
+            font-family: 'HK Grotesk Light'
+    .fav2
+        position: relative
+        bottom: 0px
+        opacity: 1
+        width: 32%
+        margin-top: 10px
+        transition: .6s .1s 
+        &.invisible
+            position: relative
+            bottom: -60px
+            opacity: 0
+        p:first-of-type
+            color: $font-darkgray
+            font-size: 22px
+            margin: 15px 0px
+        p:last-of-type
+            color: $font-lightgray
+            font-size: 17px
+            line-height: 170%
+            font-family: 'HK Grotesk Light'
+    .fav3
+        position: relative
+        bottom: 0px
+        opacity: 1
+        width: 32%
+        margin-top: 10px
+        transition: .7s .2s 
+        &.invisible
+            position: relative
+            bottom: -60px
+            opacity: 0
+        p:first-of-type
+            color: $font-darkgray
+            font-size: 22px
+            margin: 15px 0px
+        p:last-of-type
+            color: $font-lightgray
+            font-size: 17px
+            line-height: 170%
+            font-family: 'HK Grotesk Light'
+           
+
+
+                
+            
+            

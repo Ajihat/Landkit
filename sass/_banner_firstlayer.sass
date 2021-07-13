@@ -1,0 +1,102 @@
+.banner_firstlayer
+    position: relative
+    width: 100%
+    background-color: $bcg-darkgray
+    height: 380px
+    .banner_secondlayer
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        top: 0
+        clip-path: ellipse(100% 50% at 8% 0%)
+        background-color: $bcg-gray
+    .banner
+        display: flex
+        flex-direction: row
+        justify-content: center
+        position: absolute
+        width: 1000px
+        height: 380px
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        background-color: white
+        border-radius: 15px
+        z-index: 3
+        .banner_img
+            width: 50%
+            height: 100%
+            clip-path: ellipse(68% 100% at 31% 31%)
+            background-image: url("../images/banner_img1.jpg")
+            background-position: center
+            background-size: cover
+            transition: .2s 
+            border-radius: 15px
+        .banner_img_invisible
+            background-image: url("../images/banner_img2.jpg")
+            transition: .2s 
+        .banner_text
+            position: relative
+            width: 50%
+            height: 100%
+            .text_instagram, .text_airbnb
+                position: absolute
+                top: 50%
+                left: 50%
+                width: 80%
+                transform: translate(-50%,-50%)
+                text-align: center
+                opacity: 1
+                transition: .1s
+                p
+                    margin: 40px 0
+                    font-size: 20px
+                    line-height: 170%
+                    font-family: 'HK Grotesk Light' 
+                p:last-of-type
+                    margin-bottom: 0px
+                    font-size: 16px
+                    font-family: 'HK Grotesk Medium Legacy'
+                    text-transform: uppercase
+                    color: $font-lightgray
+            .text_invisible
+                opacity: 0
+                transition: .1s
+        .arrowright
+            position: absolute
+            width: 50px
+            height: 50px
+            top: 50%
+            right: 0
+            transform: translate(50%,-50%)
+            font-size: 50px
+            background-color: $light-blue
+            cursor: pointer   
+            border-radius: 50%
+            i
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%,-50%)
+                color: white
+                font-size: 20px
+        .arrowleft
+            position: absolute
+            width: 50px
+            height: 50px
+            top: 50%
+            left: 0
+            transform: translate(-50%,-50%)
+            font-size: 50px
+            background-color: $light-blue
+            cursor: pointer   
+            border-radius: 50%
+            i
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%,-50%)
+                color: white
+                font-size: 20px
+            
