@@ -1,0 +1,70 @@
+.queries
+    display: flex
+    flex-direction: row
+    justify-content: center
+    background-color: $purple
+    width: 100%
+    font-size: 18px
+    padding: 70px 0
+    height: auto
+    .queries_container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+        width: 1000px
+        div
+            display: flex
+            flex-direction: row
+            justify-content: center
+            width: 48%
+            div:first-of-type
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: center
+                width: 10%
+                padding: 25px 0
+                font-size: 30px
+            div:last-of-type
+                display: block
+                width: 90%
+                padding: 25px 0
+                margin-left: 10px
+                p:first-of-type
+                    margin-bottom: 10px
+                    font-size: 20px
+                    color: white
+                    font-family: 'HK Grotesk Light'
+                    line-height: 33px
+                p:last-of-type
+                    color: $font-lightgray
+                    line-height: 170%
+                    font-family: 'HK Grotesk Light'
+
+@media (max-width: 1200px)
+    .queries
+        .queries_container
+            width: 960px
+            div
+                height: 185px
+@media (max-width: 990px)
+    .queries
+        .queries_container
+            width: 720px
+            div
+                min-height: 230px
+@media (max-width: 800px)
+    .queries
+        width: 100%
+        padding: 48px 0
+        .queries_container
+            width: 95%
+            justify-content: center
+            div
+                width: 95%
+                height: auto
+                min-height: auto
+    
+                    

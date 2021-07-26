@@ -1,0 +1,39 @@
+*
+    padding: 0
+    margin: 0
+    font-family: 'HK Grotesk Medium Legacy'
+html
+    overflow-x: hidden
+body
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+    overflow-x: hidden
+    .landing_wrapper
+        display: flex
+        flex-direction: column
+        width: 1000px
+
+@media (max-width: 1200px)
+    body
+        .landing_wrapper
+            width: 960px
+
+@media (max-width: 990px)
+    body
+        .landing_wrapper
+            width: 720px
+            nav
+                display: none
+            button.buynow
+                display: none
+@media (max-width: 800px)
+    body
+        .landing_wrapper
+            flex-wrap: wrap
+            width: 95%
+                
+        
+        
