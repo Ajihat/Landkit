@@ -8,3 +8,8 @@ Landkit is a landing page which I created only for learning purpose, baseing on 
 # Live Preview
 To see this website live please visit: 
 https://ajihat.github.io/Landkit/
+
+
+
+
+All rights belong to its rightful owner
