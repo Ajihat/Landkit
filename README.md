@@ -4,6 +4,7 @@ Landkit is a landing page which I created baseing on oryginal Landkit website. I
 - HTML
 - CSS (SASS)
 - JavaScript
+- RWD
 # Live Preview
 To see this website live please visit: 
 https://ajihat.github.io/Landkit/
