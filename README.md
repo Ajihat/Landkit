@@ -12,4 +12,4 @@ https://ajihat.github.io/Landkit/
 
 
 
-All rights belong to its rightful owner
+All rights belong to its rightful owner.
