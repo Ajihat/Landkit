@@ -1,5 +1,5 @@
 # Landkit
-Landkit is a landing page which I recreated baseing on oryginal Landkit website, only for learning purpose . In this project I wanted to recreate orginal website as much as possible with my own code. 
+Landkit is a landing page which I recreated baseing on oryginal Landkit website, only for learning purpose . In this project I wanted to recreate orginal website as much as possible with my own code/skills. 
 # Technologies
 - HTML
 - CSS (SASS)
