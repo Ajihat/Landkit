@@ -1,5 +1,5 @@
 # Landkit
-Here is Landkit landing page which I recreated with my own cond/skills.
+Here is Landkit landing page which I recreated with my own code/skills.
 # Technologies
 - HTML
 - CSS (SASS)
